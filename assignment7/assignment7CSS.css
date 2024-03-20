@@ -1,0 +1,137 @@
+body { background-color: #999999; 
+  background-repeat: repeat;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 3px solid rgb(0, 70, 192);
+  background-color: #ffffff;
+grid-template-columns: repeat(12, 1fr);
+}
+
+#wrapped {
+    margin: 1em auto;
+  padding: 0;
+  padding-left: 24px;
+  background-color: lightblue;
+
+}
+
+
+
+h1 {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+header {
+  grid-column: span 12;
+  background-color: white;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  nav li {
+    border: 3px solid #2860c2;
+    width: 231px;
+    margin: 0px;
+    color: white;
+    display: inline-block;
+    
+  }
+  
+  nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: rgb(48, 114, 228);
+  }
+  
+  nav li a:hover {
+    background-color: rgb(4, 49, 126);
+  }
+
+.imgbox{
+    width: 430px;
+    border: 2px solid rgb(51, 98, 181);
+    padding: 10px;
+   
+}
+
+
+main {
+  grid-column: span 6;
+}
+
+img {
+  width: 200px;
+  float: left;
+  padding-left: 24px;
+}
+
+aside{
+  grid-column: span 3;
+}
+
+footer {
+  background-color: rgb(6, 151, 200);
+  grid-column: span 12;
+}
+
+nav li a:hover {
+    background-color: lightblue;
+}
+  
+
+.bordertop {
+    background-color: rgb(6, 151, 200);
+border-left: 10px solid rgb(6, 151, 200);
+border-right: 10px solid rgb(6, 151, 200);
+    padding: 30px;
+ font-family: Helvetica;
+ 
+ color: lightblue;
+ display: block;
+  text-decoration: none;
+  margin: 0.1px;
+ }
+
+.borderbottom {
+    border-bottom: 3px solid rgb(35, 75, 186);
+    background-color: white;
+    padding: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(40, 40, 158);
+}
+
+.rainbowborder {
+border-top: 3px solid rgb(12, 78, 211);
+margin: 0px;
+background-color: red;
+color: white;
+padding: 30px;
+background-image: url(wordmark_isu.png);
+
+}    
+
+.borderleft {
+    padding-left: 24px;
+
+}
+
+.borderright{
+    color: red;
+}
+
