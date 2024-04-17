@@ -1,5 +1,6 @@
 body {
   background-color: #999999;
+  font-family: "libre-caslon-display", serif;
 }
 
 #wrapper {
@@ -13,11 +14,24 @@ body {
   grid-column-gap: 24px;
 }
 
+iframe{
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+}
+
+
+
+
+
+
+
 h1 {
   grid-column: span 12;
 background-color: red;
 color: white;
-font-family: Arial, Helvetica, sans-serif;
+font-family: "Oswald", sans-serif;
 text-transform: uppercase;
 padding: 24px;
 border: 0px solid black;
@@ -26,9 +40,11 @@ box-shadow: 2px 2px 5px #333; /* x, y, blur, color*/
 }
 
 
+
 #maining {
   grid-column: span 8;
   width: 60%; 
+  border-radius: 24px;
 }
 
 nav{
@@ -80,15 +96,18 @@ nav li a:hover{
   width: 80%;
 }
 
-
-
-
-
 main{
   grid-column: span 12;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 24px;
+}
+
+
+img{
+  width: 500px;
+  height: 500px;
+  padding: 30px;
 }
 
 section img{
@@ -130,6 +149,17 @@ text-transform: uppercase;
 padding: 24px;
 font-size: 36px;
 font-weight: bold;
+}
+
+
+footer a{
+  color: gray;
+  transition: all .5s;
+  font-size: 36px;
+}
+
+footer a:hover{
+  color: lightgray;
 }
 
 
